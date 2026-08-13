@@ -1,0 +1,10 @@
+package com.example.milk_homecalci
+
+import android.app.Application
+import com.example.milk_homecalci.data.database.AppDatabase
+import com.example.milk_homecalci.data.repository.MilkRepository
+
+class MilkApplication : Application() {
+    val database by lazy { AppDatabase.getDatabase(this) }
+    val repository by lazy { MilkRepository(database.transactionDao(), database.bankDepositDao()) }
+}
