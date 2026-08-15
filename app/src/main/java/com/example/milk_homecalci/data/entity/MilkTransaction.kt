@@ -16,11 +16,11 @@ enum class Session {
 data class MilkTransaction(
     @PrimaryKey(autoGenerate = true)
     val transactionId: Long = 0,
-    val date: Long, // Store as timestamp
-    val session: Session,
-    val quantity: Double,
-    val rate: Double,
-    val amount: Double,
+    val date: Long = 0,
+    val session: Session = Session.MORNING,
+    val quantity: Double = 0.0,
+    val rate: Double = 0.0,
+    val amount: Double = 0.0,
     val receiptNumber: String? = null,
     val depotName: String? = null,
     val receiptImagePath: String? = null,

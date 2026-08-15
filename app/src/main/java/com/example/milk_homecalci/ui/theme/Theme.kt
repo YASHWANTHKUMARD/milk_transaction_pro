@@ -6,8 +6,20 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 
-private val DarkColorScheme = darkColorScheme()
-private val LightColorScheme = lightColorScheme()
+private val DarkColorScheme = darkColorScheme(
+    primary = MilkDarkPrimary,
+    secondary = MilkDarkSecondary,
+    background = MilkDarkBackground,
+    surface = MilkDarkSurface
+)
+
+private val LightColorScheme = lightColorScheme(
+    primary = MilkPrimary,
+    secondary = MilkSecondary,
+    tertiary = MilkTertiary,
+    background = MilkBackground,
+    surface = MilkSurface
+)
 
 @Composable
 fun MilkHomeCalciTheme(

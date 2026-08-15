@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "694994328152",
+    "project_id": "milk-tracker-69459",
+    "storage_bucket": "milk-tracker-69459.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694994328152:android:ecb2f2d8427533883ac82d",
+        "android_client_info": {
+          "package_name": "com.example.milk_homecalci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694994328152-p3hievc6d0tqoftkc6ftoralq45cjgjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.milk_homecalci",
+            "certificate_hash": "c37ddc0caa2a28b3d1c8ff03cc69e8671b3270c9"
+          }
+        },
+        {
+          "client_id": "694994328152-a5nrkvl2djh0e75fengvgp4pc2tiv9tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCATMFbVz5hV0FGmLc9MVxymy-7F0qaMls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694994328152-a5nrkvl2djh0e75fengvgp4pc2tiv9tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
